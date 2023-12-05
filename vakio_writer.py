@@ -1,4 +1,3 @@
-#%%
 from email import header
 from operator import index
 from urllib import request
@@ -7,7 +6,6 @@ import requests
 import csv
 import json
 from datetime import date
-
 
 
 # Vaaditut otsikkotietueet
@@ -97,4 +95,4 @@ def exportFile(filename, header, gameslist, prosentit):
 
 
 main()
-# %%
+
