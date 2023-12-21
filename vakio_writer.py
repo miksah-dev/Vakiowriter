@@ -42,7 +42,7 @@ def main():
     todayfileLauantai = today.strftime("%b-%d-%Y") + "Lauantai" + ".CSV"
     todayfileSunnuntai = today.strftime("%b-%d-%Y") + "Sunnuntai" + ".CSV"
 
-    headerit = ["home", "away", "OLBG", "FST", "Veikka", "Rivi", "prosentit 1", "prosentit x", "prosentit 2", '', "Kertoimet 1", "Kertoimet x", "Kertoimet 2" ]
+    headerit = ["home", "away", "OLBG", "FST", "Veikka", "Rivi", "prosentit 1", "prosentit x", "prosentit 2" ]
 
     for i in range(kaikkirivit):
         if jsonResponse[i]["name"] == "Lauantaivakio":
